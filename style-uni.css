@@ -1,0 +1,217 @@
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<style>
+        *{
+            padding: 0;
+            margin: 0;
+            
+        }
+        
+        body{
+             
+            
+        }
+        .pad{
+            width: 100%;
+            height: 100vh;
+        }
+        .nav {
+            width: 85%;
+                margin: auto;
+                padding: 35px 0;
+
+            background-color:  black;
+            background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('pexels-pixabay-161963.jpg');
+            background-position: center;
+                background-size: cover;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            
+            
+        }
+        .nav ul li{
+            display: inline-flex;
+            text-align: center;
+            position: relative;
+            list-style: none;
+            margin: 0 20px;
+            transition: .3;
+        }
+        
+        .nav ul li:hover{
+            font-size: 20px;
+            
+        }
+        .nav ul li a{
+            text-decoration: none;
+            text-transform: capitalize;
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            font-family: cursive;
+            font-weight: bold;
+            transition: .3s;
+        }
+        .nav ul li a:hover{
+            color: blueviolet;
+        }
+        .u{
+           color: orangered;
+            font-family: time new roman;
+            font-size: 50px;
+        }
+        h1{
+            color: yellow;
+            font-family: cursive;
+            margin-left: 20px;    
+        }
+        .bnt{
+            margin-right: 50px;
+
+        }
+        .but{
+            padding-right: 30px;
+            padding-left: 35px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 25px;
+            background: transparent;
+            border: solid white;
+            box-shadow: 0 0 0 1.5px;
+            margin-left: 10px;
+            transition: .3s;
+        }
+        .but:hover{
+            background: orange;
+        }
+        .but a{
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-family: cursive;
+            font-weight: bold;
+            transition: .3s;
+        }
+        .but a:hover{
+            color: red;
+        }
+        .content{
+            margin-top: 30px;
+            margin-left: 25px;
+            width: 100%;
+        }
+        h2{
+            color: black;
+            font-size: 50px;  
+        }
+        h3{
+            font-size: 35px;
+            font-family: arial;
+            color: darkorangE;
+            font-weight: bold;
+            margin-top: 
+            
+        }
+        
+        nav {
+    position: relative;
+}
+
+#menu-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 0 1.5px;
+    margin-right: 100px;
+    transition: 1s;
+}
+        
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+#menu li {
+    border-bottom: 1px solid white;
+    display: flex;
+}
+
+#menu a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: aqua;
+}
+
+.hidden {
+    display: none;
+     }
+       
+        .about {
+            width: 400px;
+            font-size: 20px;
+            font-family: arial;
+            font-weight: bold;
+            display: inline-block;
+            
+            
+            
+        }    
+    
+        .img {
+            display: flex;
+            justify-content: space-between;
+        }
+        .image2{
+            display: flex;
+            margin-top: 20px;
+        }
+        .p1{
+            margin-top: 30px;
+        }
+        
+        .image{
+            
+        }
+        span {
+            width: 200px;
+        }
+        
+        .pic{
+            width: 500px;
+            margin-right: 200px;
+        }
+        
+
+
+
+        
+    </style>
+<div>
+                 <nav>
+        <button id="menu-button" aria-label="Toggle menu" class="but">
+            ☰ Menu
+        </button>
+        <ul id="menu" class="hidden">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="DEV.html">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+     <script src="script.js"></script>
+ 
